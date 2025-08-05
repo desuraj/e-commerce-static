@@ -126,6 +126,10 @@ header h1 {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+.product-name {
+  font-size: 0.9rem;
+  color: black;
+}
 
 footer {
   background: #2d3436;

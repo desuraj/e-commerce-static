@@ -12,7 +12,8 @@ function App() {
   useEffect(() => {
     fetch('products.json')
       .then(res => res.json())
-      .then(data => setProducts(data));
+      .then(data => setProducts(data))
+      .catch((err) => console.error('Failed to load products', err));
   }, []);
 
   return (
@@ -24,13 +25,12 @@ function App() {
 
       <div className="container">
         <div className="product-grid">
-          {products.map((p, i) => (
-            <ProductCard
-              key={i}
-              product={p}
-              phone={CONFIG.whatsappNumber}
-              onClick={() => setSelected(p)}
-            />
+          {products.map((product, idx) => (
+            <div key={idx} className="product-card">
+              <img src={product.image} alt={product.name} />
+              <h2 className="product-name">{product.name}</h2>
+              <p className="price">{product.price}</p>
+            </div>
           ))}
         </div>
 
