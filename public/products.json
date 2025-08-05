@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Eco Water Bottle",
+    "price": "₹299",
+    "image": "/images/product1.jpg",
+    "details": {
+      "Quantity": "1L",
+      "Material": "BPA-Free Plastic",
+      "Color": "Blue",
+      "Type": "Reusable",
+      "Model number": "ECO123",
+      "Serial number": "SN1001"
+    }
+  },
+  {
+    "name": "Handmade Notebook",
+    "price": "₹149",
+    "image": "/images/product2.jpg",
+    "details": {
+      "Pages": "100",
+      "Size": "A5",
+      "Cover": "Hard",
+      "Material": "Recycled Paper",
+      "Model number": "NB456",
+      "Serial number": "SN1002"
+    }
+  },
+  {
+    "name": "Handmade pen",
+    "price": "₹149",
+    "image": "/images/product3.jpg",
+    "details": {
+      "Pages": "100",
+      "Size": "A5",
+      "Cover": "Hard",
+      "Material": "Recycled Paper",
+      "Model number": "NB456",
+      "Serial number": "SN1002"
+    }
+  },
+  {
+    "name": "Handmade pen",
+    "price": "₹149",
+    "image": "/images/product3.jpg",
+    "details": {
+      "Pages": "100",
+      "Size": "A5",
+      "Cover": "Hard",
+      "Material": "Recycled Paper",
+      "Model number": "NB456",
+      "Serial number": "SN1002"
+    }
+  },
+  {
+    "name": "Handmade pen",
+    "price": "₹149",
+    "image": "/images/product3.jpg",
+    "details": {
+      "Pages": "100",
+      "Size": "A5",
+      "Cover": "Hard",
+      "Material": "Recycled Paper",
+      "Model number": "NB456",
+      "Serial number": "SN1002"
+    }
+  },
+  {
+    "name": "Handmade pen",
+    "price": "₹149",
+    "image": "/images/product3.jpg",
+    "details": {
+      "Pages": "100",
+      "Size": "A5",
+      "Cover": "Hard",
+      "Material": "Recycled Paper",
+      "Model number": "NB456",
+      "Serial number": "SN1002"
+    }
+  },
+  {
+    "name": "Handmade pen",
+    "price": "₹149",
+    "image": "/images/product3.jpg",
+    "details": {
+      "Pages": "100",
+      "Size": "A5",
+      "Cover": "Hard",
+      "Material": "Recycled Paper",
+      "Model number": "NB456",
+      "Serial number": "SN1002"
+    }
+  }
+]

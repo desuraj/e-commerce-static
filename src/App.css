@@ -1,0 +1,166 @@
+/* App.css - Clean and Responsive Design */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(178, 242, 187) !important;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #2d3436;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header img {
+  height: 40px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.product {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.product h2 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.buy-btn {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.buy-btn i {
+  margin-right: 0.5rem;
+}
+
+.about,
+.support,
+.social {
+  margin-top: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.about h2,
+.support h2,
+.social h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.about p,
+.support p,
+.social p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+footer {
+  background: #2d3436;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+}
+
+a {
+  text-decoration: none;
+  color: #0984e3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .buy-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .product img {
+    height: 150px;
+  }
+}
