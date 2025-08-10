@@ -1,8 +1,8 @@
 [
   {
-    "name": "Eco Water Bottle",
-    "price": "₹299",
-    "image": "images/product1.jpg",
+    "name": "Haldi",
+    "price": "₹100/kg",
+    "image": "images/SN1001.jpg",
     "details": {
       "Quantity": "1L",
       "Material": "BPA-Free Plastic",
@@ -13,9 +13,9 @@
     }
   },
   {
-    "name": "Handmade Notebook",
-    "price": "₹149",
-    "image": "images/product2.jpg",
+    "name": "Dhania",
+    "price": "₹149/kg",
+    "image": "images/SN1002.jpg",
     "details": {
       "Pages": "100",
       "Size": "A5",
@@ -26,55 +26,16 @@
     }
   },
   {
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product3.jpg",
+    "name": "Sattu",
+    "price": "₹150/kg",
+    "image": "images/SN1003.jpg",
     "details": {
       "Pages": "100",
       "Size": "A5",
       "Cover": "Hard",
       "Material": "Recycled Paper",
       "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },
-  {
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product4.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },
-  {
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product5.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },
-  {
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product6.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
+      "Serial number": "SN1003"
     }
   },
   {
@@ -119,32 +80,7 @@
   {
     "name": "Handmade pen",
     "price": "₹149",
-    "image": "images/product4.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },
-  {
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product5.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },{
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product6.jpg",
+    "image": "images/product1.jpg",
     "details": {
       "Pages": "100",
       "Size": "A5",
