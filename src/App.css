@@ -56,13 +56,14 @@ header h1 {
 .product {
   background: white;
   border-radius: 8px;
+  color: black;
   padding: 1rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: relative;
   transition: transform 0.2s ease;
   text-align: center;
 }
-
+/*No effect*/ 
 .product:hover {
   transform: translateY(-5px);
 }
@@ -74,13 +75,16 @@ header h1 {
 }
 
 .product h2 {
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   margin: 0.5rem 0;
 }
 
 .price {
   font-weight: bold;
+  margin-left: 1.1rem;
   color: #27ae60;
+  text-align: left; /* keeps price centered */
+  width: auto; /
 }
 
 .buy-btn {
@@ -94,7 +98,7 @@ header h1 {
   justify-content: center;
   margin-top: 0.5rem;
   font-size: 0.9rem;
-  width: 100%;
+  width:auto;
   cursor: pointer;
 }
 
@@ -102,16 +106,14 @@ header h1 {
   margin-right: 0.5rem;
 }
 
-.about,
-.support,
-.social {
+.about,.support,.social {
   margin-top: 2rem;
+  color: black;
   background: white;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
-
 .about h2,
 .support h2,
 .social h2 {
