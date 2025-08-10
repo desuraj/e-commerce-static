@@ -2,7 +2,7 @@
   {
     "name": "Haldi",
     "price": "₹100/kg",
-    "image": "https://raw.githubusercontent.com/desuraj/eimg/main/lkmb/SN1001.jpg",
+    "image": "images/product2.jpg",
     "details": {
       "Quantity": "1L",
       "Material": "BPA-Free Plastic",
@@ -15,7 +15,7 @@
   {
     "name": "Dhania",
     "price": "₹149/kg",
-    "image": "https://raw.githubusercontent.com/desuraj/eimg/main/lkmb/SN1002.jpg",
+    "image": "images/SN1002.jpg",
     "details": {
       "Pages": "100",
       "Size": "A5",
@@ -28,7 +28,7 @@
   {
     "name": "Sattu",
     "price": "₹150/kg",
-    "image": "https://raw.githubusercontent.com/desuraj/eimg/main/lkmb/SN1003.jpg",
+    "image": "images/SN1003.jpg",
     "details": {
       "Pages": "100",
       "Size": "A5",
