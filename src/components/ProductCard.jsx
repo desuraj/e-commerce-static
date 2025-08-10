@@ -9,7 +9,7 @@ export default function ProductCard({ product, phone, onClick }) {
     <div className="product" onClick={(e) => {
       if (!e.target.closest('.buy-btn')) onClick();
     }}>
-      <img src={`/images/${product.image}`} alt={product.name} />
+      <img src={product.image} alt={product.name} />
       <h2>{product.name}</h2>
       <p className="price">{product.price}</p>
       <a

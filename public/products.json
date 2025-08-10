@@ -41,59 +41,7 @@
   {
     "name": "Handmade pen",
     "price": "₹149",
-    "image": "images/product4.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },
-  {
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product5.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },
-  {
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product6.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },
-  {
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product1.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },
-  {
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product2.jpg",
+    "image": "images/product3.jpg",
     "details": {
       "Pages": "100",
       "Size": "A5",
@@ -119,7 +67,7 @@
   {
     "name": "Handmade pen",
     "price": "₹149",
-    "image": "images/product4.jpg",
+    "image": "images/product3.jpg",
     "details": {
       "Pages": "100",
       "Size": "A5",
@@ -132,19 +80,7 @@
   {
     "name": "Handmade pen",
     "price": "₹149",
-    "image": "images/product5.jpg",
-    "details": {
-      "Pages": "100",
-      "Size": "A5",
-      "Cover": "Hard",
-      "Material": "Recycled Paper",
-      "Model number": "NB456",
-      "Serial number": "SN1002"
-    }
-  },{
-    "name": "Handmade pen",
-    "price": "₹149",
-    "image": "images/product6.jpg",
+    "image": "images/product3.jpg",
     "details": {
       "Pages": "100",
       "Size": "A5",
