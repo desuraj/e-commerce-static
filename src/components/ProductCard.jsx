@@ -1,7 +1,7 @@
 import React from 'react';
 
 function generateWhatsApp(product) {
-  return encodeURIComponent(`Hello, I want to buy: ${product.name}\nPrice: ${product.price}\nModel: ${product.details['Model number']}`);
+  return encodeURIComponent(`Hello, I want to buy: ${product.name}\nPrice: ${product.price}\nSerial: ${product.details['Serial number']}`);
 }
 
 export default function ProductCard({ product, phone, onClick }) {
