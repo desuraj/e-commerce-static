@@ -1,5 +1,5 @@
 const CONFIG = {
-  siteName: "My Store",
+  siteName: "LAADO KITCHENS MASALA",
   logo: "images/logo.png",
   whatsappNumber: "919123176448", // your full phone number, no '+'
   email: "support@example.com",
