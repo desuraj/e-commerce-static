@@ -208,6 +208,28 @@ a:hover {
   cursor: pointer;
 }
 
+/* Mobile-friendly adjustments */
+@media (max-width: 480px) {
+  .quantity-control {
+    justify-content: flex-start;
+    gap: 6px;
+  }
+
+  .qty-btn {
+    font-size: 1rem;
+    min-width: 32px;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .qty-label {
+    font-size: 0.9rem;
+  }
+
+  .qty-number {
+    font-size: 0.95rem;
+  }
+}
+
 /* Animation for smooth appearance */
 @keyframes fadeIn {
   from {
