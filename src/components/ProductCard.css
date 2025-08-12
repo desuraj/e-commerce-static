@@ -41,6 +41,11 @@
   margin: 12px 0;
   gap: 8px;
 }
+.qty-label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: black;
+}
 
 .qty-btn {
   padding: 6px 12px;

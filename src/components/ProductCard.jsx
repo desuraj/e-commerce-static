@@ -6,10 +6,19 @@ import { FaWhatsapp } from "react-icons/fa";
 
 
 function generateWhatsApp(product, quantity) {
+  const priceNumber = parseFloat(product.price.replace(/[^0-9.]/g, '')) || 0;
+  const totalPrice = priceNumber * quantity;
+
   return encodeURIComponent(
-    `Hello, I want to buy: ${product.name}\nPrice: ${product.price}\nQuantity: ${quantity}\nModel: ${product.details['Model number']}`
+    `Hello, I want to buy:\n` +
+    `${product.name}\n` +
+    `Price: ${product.price}\n` +
+    `Quantity: ${quantity}\n` +
+    `Total Price: ₹${totalPrice.toLocaleString()}\n` +
+    `Model: ${product.details['Model number']}`
   );
 }
+
 
 export default function ProductCard({ product, phone, onClick }) {
   const [quantity, setQuantity] = useState(1);
@@ -49,6 +58,7 @@ export default function ProductCard({ product, phone, onClick }) {
 
       {/* Quantity Selector */}
       <div className="quantity-control">
+        <span className="qty-label">Quantity:</span>
         <button className="qty-btn minus" onClick={decreaseQty}>−</button>
         <span className="qty-number">{quantity}</span>
         <button className="qty-btn plus" onClick={increaseQty}>+</button>
@@ -57,10 +67,10 @@ export default function ProductCard({ product, phone, onClick }) {
       <p className="total">Total: ₹{totalPrice.toLocaleString()}</p>
 
       {/* Buy Button */}
-     <button className="buy-btn" onClick={handleBuyClick}>
-  <FaWhatsapp style={{ marginRight: '8px', fontSize: '1.2em' }} />
-  Buy on WhatsApp
-</button>
+      <button className="buy-btn" onClick={handleBuyClick}>
+        <FaWhatsapp style={{ marginRight: '8px', fontSize: '1.2em' }} />
+        Buy on WhatsApp
+      </button>
 
     </div>
   );
