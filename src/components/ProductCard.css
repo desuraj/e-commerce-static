@@ -1,0 +1,148 @@
+.product-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  max-width: 260px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgb(126, 125, 125);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: auto; /* Center card on smaller screens */
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.product-name {
+  color: #000000;
+  font-size: 1.1rem;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.price {
+  font-size: 1rem;
+  color: #d3bdbd;
+  font-weight: bold;
+}
+
+.quantity-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
+  gap: 8px;
+}
+
+.qty-btn {
+  padding: 6px 12px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #f1f1f1;
+  transition: background 0.2s ease;
+}
+
+.qty-btn.minus {
+  background-color: #ff6b6b;
+}
+
+.qty-btn.minus:hover {
+  background-color: #d64545;
+}
+
+.qty-btn.plus {
+  background-color: #4CAF50;
+}
+
+.qty-btn.plus:hover {
+  background-color: #388E3C;
+}
+
+.qty-number {
+  color: #000000;
+  font-size: 16px;
+  min-width: 25px;
+  text-align: center;
+}
+
+.total {
+  font-weight: 600;
+  color: #000000;
+  margin: 8px 0;
+}
+
+.buy-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.buy-btn:hover {
+  background-color: #20b858;
+}
+
+.wa-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .product-card {
+    padding: 15px;
+    max-width: 90%;
+  }
+  
+  .product-name {
+    font-size: 1rem;
+  }
+
+  .price {
+    font-size: 0.9rem;
+  }
+
+  .buy-btn {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .qty-btn {
+    padding: 4px 8px;
+    font-size: 16px;
+  }
+
+  .buy-btn {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .product-name {
+    font-size: 0.95rem;
+  }
+}
